@@ -1,0 +1,38 @@
+﻿<Window x:Class="GroupListElemtsLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroupListElemtsLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--<ListBox SelectionChanged="ListBoxSelectionChanged" x:Name="listBox" Grid.Column="1" Grid.Row="1">
+        </ListBox>-->
+
+        <!--<ListView x:Name="listBox" Grid.Column="1" Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Название" Width="100" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Цена" Width="100"/>
+                    <GridViewColumn Header="Идентификатор" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+
+        <DataGrid AutoGenerateColumns="False" x:Name="listBox" Grid.Row="1" Grid.Column="1">
+
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupListElemtsLesson", "GroupListElemtsLesson\GroupListElemtsLesson.csproj", "{DCEFB8AE-6B52-459C-B814-741D876DFE08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCEFB8AE-6B52-459C-B814-741D876DFE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEFB8AE-6B52-459C-B814-741D876DFE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEFB8AE-6B52-459C-B814-741D876DFE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEFB8AE-6B52-459C-B814-741D876DFE08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A308223C-E2E3-47FE-98C6-9E70C3C10316}
+	EndGlobalSection
+EndGlobal
